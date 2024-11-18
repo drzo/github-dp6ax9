@@ -1,0 +1,10 @@
+{
+  "name": "esm-protein-prediction",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prestart": "python3 -m ensurepip && python3 -m pip install --no-cache-dir -r requirements.txt",
+    "start": "python3 main.py"
+  }
+}
