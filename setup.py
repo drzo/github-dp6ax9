@@ -5,11 +5,11 @@ setup(
     version="0.1.0",
     packages=find_packages(),
     install_requires=[
-        "torch==2.1.0+cpu",
+        "torch==2.2.0",
         "gradio_molecule3d==0.0.5",
         "accelerate==0.30.1",
         "huggingface_hub==0.19.4",
-        "gradio==4.7.1",
+        "gradio==5.5.0",
         "esm==2.0.0",
         "numpy==1.24.3"
     ],
